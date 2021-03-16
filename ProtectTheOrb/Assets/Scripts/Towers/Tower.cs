@@ -44,13 +44,15 @@ public class Tower : MonoBehaviour, ITower
     }
 
     virtual public void Fire() {
-        if (targetEnemy != null)
+        if (targetEnemy != null) {
             targetEnemy.OnDamage(towerValues.damage);
             if (targetEnemy.currentHealth <= 0) {
                 targetEnemy.Death();
                 ClearTarget();
-                GetTarget();
             }
+        } else {
+            ClearTarget();
+        }
     }
 
     public void Upgrade() {
@@ -58,9 +60,15 @@ public class Tower : MonoBehaviour, ITower
     }
 
     public void GetTarget() {
+        if (target != null && targetEnemy.willDestroy) ClearTarget();
         if (target == null && validTargets.Count != 0) {
-            target = validTargets[0];
-            targetEnemy = validTargets[0].GetComponent<Enemy>();
+            if (validTargets[0] == null) {
+                validTargets.RemoveAt(0);
+            } else {
+                target = validTargets[0];
+                targetEnemy = target.GetComponent<Enemy>();
+            }
+            
         }
     }
 

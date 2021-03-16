@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "EnemyValues", menuName="Values/EnemyValues")]
 public class EnemyValues : ScriptableObject
 {
-    public float maxHealth, currentHealth;
+    public float maxHealth;
     public float speed = 1;
     public bool isFlying = false;
     public EnemyTypes enemyType = EnemyTypes.Grunt;

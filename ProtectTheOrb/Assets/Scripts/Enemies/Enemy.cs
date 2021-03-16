@@ -17,6 +17,8 @@ public class Enemy : MonoBehaviour
     public EnemyValues enemyValues;
     public Animator animator;
     public float currentHealth;
+    public float deathTime = 1f;
+    public bool willDestroy = false;
     
     // Start is called before the first frame update
     void Start()
@@ -35,11 +37,17 @@ public class Enemy : MonoBehaviour
         currentHealth -= damageAmount;
 
         if (currentHealth <= 0) {
-            // Destroy(gameObject);
+            Death();
         }
     }
 
     public void Death() {
-        Destroy(this.gameObject);
+        StartCoroutine("OnDeath");
+    }
+
+    IEnumerator OnDeath() {
+        willDestroy = true;
+        yield return new WaitForSeconds(deathTime);
+        Destroy(gameObject);
     }
 }
