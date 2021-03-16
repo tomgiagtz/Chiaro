@@ -14,14 +14,15 @@ public enum EnemyTypes {
 }
 public class Enemy : MonoBehaviour
 {
-    EnemyValues enemyValues;
+    public EnemyValues enemyValues;
     public Animator animator;
+    public float currentHealth;
     
     // Start is called before the first frame update
     void Start()
     {
         animator.SetBool("Run Forward", true);
-        enemyValues.currentHealth = enemyValues.maxHealth;
+        currentHealth = enemyValues.maxHealth;
     }
 
     // Update is called once per frame
@@ -30,7 +31,15 @@ public class Enemy : MonoBehaviour
         
     }
 
-    public void OnDamage(int damageAmount) {
-        Debug.Log("Ouch");
+    public void OnDamage(float damageAmount) {
+        currentHealth -= damageAmount;
+
+        if (currentHealth <= 0) {
+            // Destroy(gameObject);
+        }
+    }
+
+    public void Death() {
+        Destroy(this.gameObject);
     }
 }

@@ -6,7 +6,7 @@ public class Ballista : Tower, ITower
 {
     public Transform upRotationPoint, forwardRotationPoint;
     
-    float rotationSpeed = 2f;
+    float rotationSpeed = 4f;
     void FixedUpdate()
     {
         if (target != null) {
@@ -15,7 +15,7 @@ public class Ballista : Tower, ITower
     }
 
     void RotateToTarget() {
-        Vector3 dir = target.position - transform.position;
+        Vector3 dir = target.transform.position - transform.position;
         Quaternion rotationTarget = Quaternion.LookRotation(dir);
         Vector3 newUpRotation = Quaternion.Lerp(upRotationPoint.rotation, rotationTarget, Time.deltaTime * rotationSpeed ).eulerAngles;
         Vector3 newFowardRotation = Quaternion.Lerp(forwardRotationPoint.rotation, rotationTarget, Time.deltaTime * rotationSpeed ).eulerAngles;

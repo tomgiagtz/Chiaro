@@ -11,7 +11,7 @@ public interface ITower {
 }
 public class Tower : MonoBehaviour, ITower
 {
-    [SerializeField] public Transform target;
+    [SerializeField] public GameObject target;
     
     public TowerValues towerValues;
     [SerializeField] LayerMask targetMask;
@@ -44,9 +44,13 @@ public class Tower : MonoBehaviour, ITower
     }
 
     virtual public void Fire() {
-        Debug.Log("Bang");
         if (targetEnemy != null)
-            targetEnemy.OnDamage();
+            targetEnemy.OnDamage(towerValues.damage);
+            if (targetEnemy.currentHealth <= 0) {
+                targetEnemy.Death();
+                ClearTarget();
+                GetTarget();
+            }
     }
 
     public void Upgrade() {
@@ -55,12 +59,13 @@ public class Tower : MonoBehaviour, ITower
 
     public void GetTarget() {
         if (target == null && validTargets.Count != 0) {
-            target = validTargets[0].transform;
+            target = validTargets[0];
             targetEnemy = validTargets[0].GetComponent<Enemy>();
         }
     }
 
     public void ClearTarget() {
+        validTargets.Remove(target);
         target = null;
         targetEnemy = null;
     }
@@ -76,8 +81,9 @@ public class Tower : MonoBehaviour, ITower
         if (IsInLayerMask(other.gameObject, targetMask)){
             if (other.gameObject.transform == target) {
                 ClearTarget();
+            } else { 
+                validTargets.Remove(other.gameObject);
             }
-            validTargets.Remove(other.gameObject);
         }
     }
 
