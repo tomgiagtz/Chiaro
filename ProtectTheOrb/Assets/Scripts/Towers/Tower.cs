@@ -79,11 +79,11 @@ public class Tower : MonoBehaviour, ITower
 
     private void OnTriggerExit(Collider other) {
         if (IsInLayerMask(other.gameObject, targetMask)){
-            if (other.gameObject.transform == target) {
+            if (other.gameObject == target) {
                 ClearTarget();
-            } else { 
-                validTargets.Remove(other.gameObject);
             }
+            validTargets.Remove(other.gameObject);
+            
         }
     }
 
