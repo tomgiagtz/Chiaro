@@ -7,6 +7,7 @@ public class NavMeshController : MonoBehaviour
 {
     // Start is called before the first frame update
     NavMeshAgent agent;
+    Enemy enemy;
     // public Transform[] wayPoints;
     // public int currentWayPoint = 0;
     // public float leaveRange = 30f;
@@ -16,17 +17,18 @@ public class NavMeshController : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         // agent.destination = wayPoints[currentWayPoint].position;
-        
+        enemy = GetComponent<Enemy>();
+        agent.speed = enemy.enemyValues.speed;
         agent.destination = exitPoint.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // if (agent.pathStatus == NavMeshPathStatus.PathComplete && enemyController.engaged) {
-        //     enemyController.engaged = false;
-        //     agent.destination = wayPoints[currentWayPoint].position;
-        // }
+        if (enemy.willDestroy) {
+            agent.isStopped = true;
+            agent.radius = 0.1f;
+        }
     }
 
 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Grunt
   m_EditorClassIdentifier: 
   maxHealth: 32
-  speed: 2
+  speed: 3
   isFlying: 0
   enemyType: 0
   value: 1

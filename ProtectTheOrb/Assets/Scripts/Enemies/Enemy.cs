@@ -47,6 +47,8 @@ public class Enemy : MonoBehaviour
 
     IEnumerator OnDeath() {
         willDestroy = true;
+        animator.SetBool("Run Forward", false);
+        animator.SetTrigger("Die");
         yield return new WaitForSeconds(deathTime);
         Destroy(gameObject);
     }

@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1604b820e1760b458c0d31d2d96f4d2, type: 3}
-  m_Name: Ballista
+  m_Script: {fileID: 11500000, guid: 99968ef2afcb22646aa0b88ff609e3f1, type: 3}
+  m_Name: SuperGrunt 1
   m_EditorClassIdentifier: 
-  cost: 10
-  range: 3
-  damage: 1
-  rateOfFire: 1.5
+  maxHealth: 100
+  speed: 1
+  isFlying: 0
+  enemyType: 0
+  value: 1
