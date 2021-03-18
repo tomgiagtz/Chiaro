@@ -26340,6 +26340,7 @@ GameObject:
   - component: {fileID: 1671737185}
   - component: {fileID: 1671737184}
   - component: {fileID: 1671737183}
+  - component: {fileID: 1671737186}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -26432,6 +26433,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671737181}
   m_CullTransparentMesh: 1
+--- !u!114 &1671737186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671737181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d31a14f6d9d4f88ae35eaf8888bb36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeText: {fileID: 1239064689}
+  coinText: {fileID: 79822081}
 --- !u!4 &1673959245 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8719290074077916210, guid: f816287caad90c7408da7debeff111b4, type: 3}
