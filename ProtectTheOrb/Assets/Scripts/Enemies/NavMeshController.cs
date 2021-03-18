@@ -33,7 +33,7 @@ public class NavMeshController : MonoBehaviour
             agent.isStopped = true;
             agent.radius = 0.1f;
         }
-
+        //if agent if within 0.5f of destination, set all the variables, remove lives from game manager
         if (agent.pathStatus == NavMeshPathStatus.PathComplete && distanceFromExit <= 0.5f && !reachedDest) {
             agent.isStopped = true;
             agent.radius = 0.1f;
@@ -41,7 +41,7 @@ public class NavMeshController : MonoBehaviour
             GameController.Instance.RemoveLives(enemy.enemyValues.damageValue);
         }
     }
-
+    //delayed and repeated to allow for pathfinding in first couple frames
     void UpdateDistanceFromExit() {
         distanceFromExit = agent.remainingDistance;
     }
