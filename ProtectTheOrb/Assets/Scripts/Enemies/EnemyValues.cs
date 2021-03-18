@@ -9,6 +9,7 @@ public class EnemyValues : ScriptableObject
     public float speed = 1;
     public bool isFlying = false;
     public EnemyTypes enemyType = EnemyTypes.Grunt;
-    public int value = 1;
+    public int coinValue = 1;
+    public int damageValue = 1;
 
 }

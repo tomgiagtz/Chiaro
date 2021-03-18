@@ -49,6 +49,7 @@ public class Enemy : MonoBehaviour
         willDestroy = true;
         animator.SetBool("Run Forward", false);
         animator.SetTrigger("Die");
+        GameController.Instance.AddCoins(enemyValues.coinValue);
         yield return new WaitForSeconds(deathTime);
         Destroy(gameObject);
     }
