@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f0bc66dd2c1a04790e881ad1ad321e, type: 3}
+  m_Name: W_Standard
+  m_EditorClassIdentifier: 
+  waveType: 0
+  numberOfEnemies: 0
+  enemyTypes:
+  - {fileID: 11400000, guid: 2fc909a443b66024f8b2964e6edc02dc, type: 2}
+  - {fileID: 11400000, guid: 3a75dab6860d20141b3bc4f026d67ffc, type: 2}
+  - {fileID: 11400000, guid: 5cc989f648493e3479b6eba13c782bbe, type: 2}
+  enemySpawnRates:
+  - 50
+  - 34
+  - 16
+  spawnRate: 1

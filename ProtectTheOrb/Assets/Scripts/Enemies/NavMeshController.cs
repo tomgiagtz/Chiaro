@@ -11,12 +11,15 @@ public class NavMeshController : MonoBehaviour
     // public Transform[] wayPoints;
     // public int currentWayPoint = 0;
     // public float leaveRange = 30f;
+    public string spawnPointTag, exitPointTag;
     public Transform spawnPoint, exitPoint;
     float distanceFromExit = Mathf.Infinity;
     bool reachedDest = false;
     
     void Start()
     {
+        spawnPoint = ValidPathController.Instance.spawnPoint;
+        exitPoint = ValidPathController.Instance.exitPoint;
         agent = GetComponent<NavMeshAgent>();
         // agent.destination = wayPoints[currentWayPoint].position;
         enemy = GetComponent<Enemy>();
@@ -24,6 +27,10 @@ public class NavMeshController : MonoBehaviour
         agent.destination = exitPoint.position;
 
         InvokeRepeating("UpdateDistanceFromExit", 1, 0.5f);
+    }
+
+    private void OnDestroy() {
+        
     }
 
     // Update is called once per frame
@@ -38,11 +45,14 @@ public class NavMeshController : MonoBehaviour
             agent.isStopped = true;
             agent.radius = 0.1f;
             reachedDest = true;
+            CancelInvoke();
             GameController.Instance.RemoveLives(enemy.enemyValues.damageValue);
+            Destroy(gameObject);
         }
     }
     //delayed and repeated to allow for pathfinding in first couple frames
     void UpdateDistanceFromExit() {
+        Debug.Log(agent.pathStatus);
         distanceFromExit = agent.remainingDistance;
     }
 

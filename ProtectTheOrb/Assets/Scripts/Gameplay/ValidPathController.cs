@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class ValidPathController : MonoBehaviour
-
+public class ValidPathController : MonoSingleton<ValidPathController>
 {
     public Transform spawnPoint, exitPoint;
     private NavMeshPath path;
@@ -14,16 +13,13 @@ public class ValidPathController : MonoBehaviour
     void Start()
     {
         path = new NavMeshPath();
-        elapsed = 0.0f;
 
+        // Update the way to the goal every second.
         InvokeRepeating("UpdateIsValidPath", 0f, 0.5f);
     }
 
     void Update()
     {
-        // Update the way to the goal every second.
-          
-        
         
         for (int i = 0; i < path.corners.Length - 1; i++)
             Debug.DrawLine(path.corners[i], path.corners[i + 1], Color.red);

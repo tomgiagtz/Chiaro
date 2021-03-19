@@ -15,10 +15,10 @@ public enum EnemyTypes {
 public class Enemy : MonoBehaviour
 {
     public EnemyValues enemyValues;
-    public Animator animator;
     public float currentHealth;
-    public float deathTime = 1f;
     public bool willDestroy = false;
+    private float DEATH_TIME = 1f;
+    public Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -50,7 +50,7 @@ public class Enemy : MonoBehaviour
         animator.SetBool("Run Forward", false);
         animator.SetTrigger("Die");
         GameController.Instance.AddCoins(enemyValues.coinValue);
-        yield return new WaitForSeconds(deathTime);
+        yield return new WaitForSeconds(DEATH_TIME);
         Destroy(gameObject);
     }
 }

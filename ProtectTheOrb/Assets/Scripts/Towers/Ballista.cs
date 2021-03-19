@@ -27,6 +27,6 @@ public class Ballista : Tower, ITower
 
     override public void Fire() {
         base.Fire();
-        Debug.Log("Shwoop");
+        // TODO: Ballista Animation
     }
 }

@@ -11,5 +11,5 @@ public class EnemyValues : ScriptableObject
     public EnemyTypes enemyType = EnemyTypes.Grunt;
     public int coinValue = 1;
     public int damageValue = 1;
-
+    public GameObject prefab;
 }
