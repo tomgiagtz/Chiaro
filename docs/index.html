@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | ProtectTheOrb</title>
+    <title>Unity WebGL Player | TowerDefensePrototype</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -22,19 +22,19 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">ProtectTheOrb</div>
+        <div id="unity-build-title">TowerDefensePrototype</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Desktop.loader.js";
+      var loaderUrl = buildUrl + "/docs.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Desktop.data.gz",
-        frameworkUrl: buildUrl + "/Desktop.framework.js.gz",
-        codeUrl: buildUrl + "/Desktop.wasm.gz",
+        dataUrl: buildUrl + "/docs.data",
+        frameworkUrl: buildUrl + "/docs.framework.js",
+        codeUrl: buildUrl + "/docs.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "ProtectTheOrb",
+        productName: "TowerDefensePrototype",
         productVersion: "0.1",
       };
 
@@ -53,8 +53,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1200px";
+        canvas.style.height = "675px";
       }
       loadingBar.style.display = "block";
 
