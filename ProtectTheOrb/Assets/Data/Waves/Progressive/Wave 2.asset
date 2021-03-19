@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99968ef2afcb22646aa0b88ff609e3f1, type: 3}
-  m_Name: SuperGrunt
+  m_Script: {fileID: 11500000, guid: a3f0bc66dd2c1a04790e881ad1ad321e, type: 3}
+  m_Name: Wave 2
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  speed: 5
-  isFlying: 0
-  enemyType: 0
-  coinValue: 1
-  damageValue: 1
-  prefab: {fileID: 126572, guid: 6d9f9d761f007be4e9080ace59513ce8, type: 3}
+  waveType: 0
+  numberOfEnemies: 5
+  enemyTypes:
+  - {fileID: 11400000, guid: 2fc909a443b66024f8b2964e6edc02dc, type: 2}
+  enemySpawnRates:
+  - 100
+  spawnRate: 0.5

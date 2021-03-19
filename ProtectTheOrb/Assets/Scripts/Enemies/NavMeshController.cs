@@ -52,8 +52,9 @@ public class NavMeshController : MonoBehaviour
     }
     //delayed and repeated to allow for pathfinding in first couple frames
     void UpdateDistanceFromExit() {
-        Debug.Log(agent.pathStatus);
-        distanceFromExit = agent.remainingDistance;
+        if (agent != null) {
+            distanceFromExit = agent.remainingDistance;
+        }
     }
 
 

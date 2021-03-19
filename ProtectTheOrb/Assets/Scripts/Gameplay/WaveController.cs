@@ -7,11 +7,14 @@ public class WaveController : MonoSingleton<WaveController>
 {
     public WaveList waveList;
     List<Wave> waves;
-    Wave currWave;
-    bool spawnsFinished = false;
+    public Wave currWave;
+    public bool isSpawning, spawnsFinished;
+    public GameObject winDisplay;
+    List<GameObject> aliveEnemies = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
+        winDisplay.SetActive(false);
         waves = new List<Wave>(waveList.waves);
         foreach (Wave w in waves)
         {
@@ -23,18 +26,25 @@ public class WaveController : MonoSingleton<WaveController>
         }
 
         currWave = waves[0];
+        StartCoroutine("WaitForNextWave");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (currWave != null && !spawnsFinished) {
+        aliveEnemies.RemoveAll(item => item == null);
+        if (waves.Count == 0 && spawnsFinished && aliveEnemies.Count == 0) {
+            winDisplay.SetActive(true);
+        }
+
+        if (currWave != null && !spawnsFinished && isSpawning) {
             IsSpawning();
         }
     }
 
     float spawnCooldown = 0f;
-    int numEnemiesSpawned = 0;
+    [HideInInspector]
+    public int numEnemiesSpawned = 0;
     void IsSpawning() {
         if (spawnCooldown <= 0f) {
             if (numEnemiesSpawned < currWave.numberOfEnemies) {
@@ -52,10 +62,11 @@ public class WaveController : MonoSingleton<WaveController>
     }
 
     void SpawnEnemy(EnemyValues enemyValue) {
-        Instantiate(enemyValue.prefab, ValidPathController.Instance.spawnPoint.transform);
+        aliveEnemies.Add(Instantiate(enemyValue.prefab, ValidPathController.Instance.spawnPoint.transform));
     }
 
     void NextWave() {
+        StartCoroutine("WaitForNextWave");
         waves.RemoveAt(0);
         if (waves.Count > 0) {
             currWave = waves[0];
@@ -64,6 +75,14 @@ public class WaveController : MonoSingleton<WaveController>
             spawnsFinished = true;
         }
         
+    }
+
+    float timeBetweenWaves = 3f;
+    IEnumerator WaitForNextWave() {
+        isSpawning = false;
+        yield return new WaitForSeconds(timeBetweenWaves);
+        isSpawning = true;
+
     }
 
     EnemyValues GetEnemyType() {

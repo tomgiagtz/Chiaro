@@ -18,6 +18,7 @@ public enum WaveErrors {
 [CreateAssetMenu(fileName = "Wave", menuName="Values/Wave")]
 public class Wave : ScriptableObject
 {
+    public string waveName = "Standard";
     public WaveTypes waveType;
     public int numberOfEnemies;
     public List<EnemyValues> enemyTypes = new List<EnemyValues>();

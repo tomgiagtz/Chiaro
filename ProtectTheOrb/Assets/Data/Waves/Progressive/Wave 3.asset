@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3f0bc66dd2c1a04790e881ad1ad321e, type: 3}
-  m_Name: W_Standard
+  m_Name: Wave 3
   m_EditorClassIdentifier: 
+  waveName: Standard
   waveType: 0
-  numberOfEnemies: 10
+  numberOfEnemies: 5
   enemyTypes:
   - {fileID: 11400000, guid: 2fc909a443b66024f8b2964e6edc02dc, type: 2}
   - {fileID: 11400000, guid: 3a75dab6860d20141b3bc4f026d67ffc, type: 2}
-  - {fileID: 11400000, guid: 5cc989f648493e3479b6eba13c782bbe, type: 2}
   enemySpawnRates:
   - 50
-  - 34
-  - 16
+  - 50
   spawnRate: 0.5

@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightColor: {r: 0.8313726, g: 0.8235295, b: 0.7254902, a: 0.9843137}
+  offset: {x: 0, y: 0.25, z: 0}
+  towerGO: {fileID: 0}
 --- !u!65 &5002167420236148894
 BoxCollider:
   m_ObjectHideFlags: 0

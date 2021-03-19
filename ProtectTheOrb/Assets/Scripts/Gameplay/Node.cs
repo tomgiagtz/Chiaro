@@ -7,7 +7,7 @@ public class Node : MonoBehaviour
     // Start is called before the first frame update
     MeshRenderer mesh;
     public Color highlightColor;
-    public Vector3 offset = new Vector3 (0f, 0.25f, 0f);
+    public Vector3 offset = new Vector3 (0f, 0.5f, 0f);
     public GameObject towerGO;
     Color defaultColor;
     void Start()
@@ -27,8 +27,26 @@ public class Node : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        if (towerGO != null) {
-            Debug.Log("hallo");
+
+        switch (ShopController.Instance.mode) {
+            case SelectionMode.Buy: 
+                towerGO = Instantiate(ShopController.Instance.selectedTower.prefab, transform.position + offset, transform.rotation);
+                break;
+            case SelectionMode.Upgrade: 
+                Destroy(towerGO);
+                towerGO = Instantiate(ShopController.Instance.selectedTower.upgrade, transform.position + offset, transform.rotation);
+                break;
+            case SelectionMode.Destroy: 
+                Destroy(towerGO);
+                break;
+
+            default: {
+                return;
+            }
+
         }
+
     }
+
+
 }

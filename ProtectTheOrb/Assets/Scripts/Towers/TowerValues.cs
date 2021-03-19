@@ -11,6 +11,8 @@ public class TowerValues : ScriptableObject
     //shots per second
     public float rateOfFire;
     public GameObject prefab;
+    // public TowerValues upgrade;
+    public GameObject upgrade;
 }
 
 
