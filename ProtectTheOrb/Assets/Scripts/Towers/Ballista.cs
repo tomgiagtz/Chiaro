@@ -11,6 +11,7 @@ public class Ballista : Tower, ITower
     {
         if (target != null) {
             RotateToTarget();
+    
         }
     }
 
