@@ -18,3 +18,4 @@ MonoBehaviour:
   rateOfFire: 1.5
   prefab: {fileID: 8554185669800260291, guid: 6160dbb3178b1c04689318d92ba35c05, type: 3}
   upgrade: {fileID: 8554185669800260291, guid: 78055457017f50243af12f1cad042bde, type: 3}
+  sprite: {fileID: 5654398348489882928, guid: d4301bf14a6dd694495777affa8e35cd, type: 3}

@@ -13,6 +13,8 @@ public class TowerValues : ScriptableObject
     public GameObject prefab;
     // public TowerValues upgrade;
     public GameObject upgrade;
+
+    public Sprite sprite;
 }
 
 

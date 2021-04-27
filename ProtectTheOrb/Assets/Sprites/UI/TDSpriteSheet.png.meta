@@ -1,0 +1,3624 @@
+fileFormatVersion: 2
+guid: 508d2030c5c82ae499e1606c1db87751
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7421808070690365982
+    second: Backer
+  - first:
+      213: 154524166433352883
+    second: Ribbon
+  - first:
+      213: 2966017068984750780
+    second: TDSpriteSheet_2
+  - first:
+      213: 2212867387735975522
+    second: TDSpriteSheet_3
+  - first:
+      213: -2355270086729466950
+    second: TDSpriteSheet_4
+  - first:
+      213: -4749819638012560020
+    second: TDSpriteSheet_5
+  - first:
+      213: 8358953151841575954
+    second: TDSpriteSheet_6
+  - first:
+      213: 3257343830631917604
+    second: TDSpriteSheet_7
+  - first:
+      213: 5206588679953282559
+    second: TDSpriteSheet_8
+  - first:
+      213: -7175788021438569102
+    second: TDSpriteSheet_9
+  - first:
+      213: -9054721198891331457
+    second: TDSpriteSheet_10
+  - first:
+      213: -1528079389396895621
+    second: TDSpriteSheet_11
+  - first:
+      213: 3536174292094681898
+    second: TDSpriteSheet_12
+  - first:
+      213: 1915581138997182503
+    second: TDSpriteSheet_13
+  - first:
+      213: 6283188974951301792
+    second: TDSpriteSheet_14
+  - first:
+      213: -1027830199148631207
+    second: TDSpriteSheet_15
+  - first:
+      213: 8044490401124089320
+    second: TDSpriteSheet_16
+  - first:
+      213: -8614056500491164781
+    second: TDSpriteSheet_17
+  - first:
+      213: 8336563786138747637
+    second: TDSpriteSheet_18
+  - first:
+      213: 4047117520558220225
+    second: TDSpriteSheet_19
+  - first:
+      213: 4976293498380372460
+    second: TDSpriteSheet_20
+  - first:
+      213: 7410447974121971878
+    second: TDSpriteSheet_21
+  - first:
+      213: 3636765401361971642
+    second: TDSpriteSheet_22
+  - first:
+      213: -815616881824403049
+    second: TDSpriteSheet_23
+  - first:
+      213: -1072928228787679788
+    second: TDSpriteSheet_24
+  - first:
+      213: -2980418147865419836
+    second: TDSpriteSheet_25
+  - first:
+      213: 3223790255603315432
+    second: TDSpriteSheet_26
+  - first:
+      213: 6598134795136884011
+    second: TDSpriteSheet_27
+  - first:
+      213: -1056116658529321280
+    second: TDSpriteSheet_28
+  - first:
+      213: -6991692524813669484
+    second: TDSpriteSheet_29
+  - first:
+      213: -1695390184480898252
+    second: TDSpriteSheet_30
+  - first:
+      213: 5388878926410436724
+    second: TDSpriteSheet_31
+  - first:
+      213: 5049903275114706961
+    second: TDSpriteSheet_32
+  - first:
+      213: 2703443638028998975
+    second: TDSpriteSheet_33
+  - first:
+      213: 2728341754199744190
+    second: TDSpriteSheet_34
+  - first:
+      213: 4815870137619740731
+    second: TDSpriteSheet_35
+  - first:
+      213: -3406479599842582229
+    second: TDSpriteSheet_36
+  - first:
+      213: 4850863904702113359
+    second: TDSpriteSheet_37
+  - first:
+      213: -451194341323531161
+    second: TDSpriteSheet_38
+  - first:
+      213: 6470328473478608839
+    second: TDSpriteSheet_39
+  - first:
+      213: 4457583471613435288
+    second: TDSpriteSheet_40
+  - first:
+      213: 8781824539379171288
+    second: TDSpriteSheet_41
+  - first:
+      213: 2171446130254092737
+    second: TDSpriteSheet_42
+  - first:
+      213: 5028719471001360895
+    second: TDSpriteSheet_43
+  - first:
+      213: -8988419917514687634
+    second: TDSpriteSheet_44
+  - first:
+      213: -360442874101362496
+    second: TDSpriteSheet_45
+  - first:
+      213: -1324989290750129706
+    second: TDSpriteSheet_46
+  - first:
+      213: 5272912640240801100
+    second: TDSpriteSheet_47
+  - first:
+      213: -6186638053327514085
+    second: TDSpriteSheet_48
+  - first:
+      213: -7018452137821523764
+    second: TDSpriteSheet_49
+  - first:
+      213: 4298102521698344194
+    second: TDSpriteSheet_50
+  - first:
+      213: 2354409839921900630
+    second: TDSpriteSheet_51
+  - first:
+      213: -2921689205503310167
+    second: TDSpriteSheet_52
+  - first:
+      213: -6716104154168941718
+    second: TDSpriteSheet_53
+  - first:
+      213: -6535665226310485318
+    second: TDSpriteSheet_54
+  - first:
+      213: -8429206663680130230
+    second: TDSpriteSheet_55
+  - first:
+      213: -63815945273254188
+    second: TDSpriteSheet_56
+  - first:
+      213: -6712498464140868190
+    second: TDSpriteSheet_57
+  - first:
+      213: -3446498710184332549
+    second: TDSpriteSheet_58
+  - first:
+      213: 5865193802184494763
+    second: TDSpriteSheet_59
+  - first:
+      213: 1286545091575990380
+    second: TDSpriteSheet_60
+  - first:
+      213: -1962163744239622186
+    second: TDSpriteSheet_61
+  - first:
+      213: 3690027671220524429
+    second: TDSpriteSheet_62
+  - first:
+      213: 5876898055497214496
+    second: TDSpriteSheet_63
+  - first:
+      213: 8014912607959109927
+    second: TDSpriteSheet_64
+  - first:
+      213: -7306194353352374631
+    second: TDSpriteSheet_65
+  - first:
+      213: -8955354635620195147
+    second: TDSpriteSheet_66
+  - first:
+      213: -5634133404768888803
+    second: TDSpriteSheet_67
+  - first:
+      213: -8456363221269271654
+    second: TDSpriteSheet_68
+  - first:
+      213: -8874618876986426662
+    second: TDSpriteSheet_69
+  - first:
+      213: -1368455859346223462
+    second: TDSpriteSheet_70
+  - first:
+      213: -319998806446855113
+    second: TDSpriteSheet_71
+  - first:
+      213: 470302735955116221
+    second: TDSpriteSheet_72
+  - first:
+      213: -7452908075940368294
+    second: TDSpriteSheet_73
+  - first:
+      213: -7390206173864897180
+    second: TDSpriteSheet_74
+  - first:
+      213: -7634061711911763035
+    second: TDSpriteSheet_75
+  - first:
+      213: -1131385120912001785
+    second: TDSpriteSheet_76
+  - first:
+      213: 8868178290280864761
+    second: TDSpriteSheet_77
+  - first:
+      213: 5746302114119902059
+    second: TDSpriteSheet_78
+  - first:
+      213: 1790089599926653339
+    second: TDSpriteSheet_79
+  - first:
+      213: 4044321445390436114
+    second: TDSpriteSheet_80
+  - first:
+      213: 1682012547736227708
+    second: TDSpriteSheet_81
+  - first:
+      213: -7485260169182283304
+    second: TDSpriteSheet_82
+  - first:
+      213: 7977235098279799085
+    second: TDSpriteSheet_83
+  - first:
+      213: -4016582221166617206
+    second: TDSpriteSheet_84
+  - first:
+      213: 5771038590377816542
+    second: TDSpriteSheet_85
+  - first:
+      213: -5323660129623706546
+    second: TDSpriteSheet_86
+  - first:
+      213: 8560525400228832095
+    second: TDSpriteSheet_87
+  - first:
+      213: 1696278596402319950
+    second: TDSpriteSheet_88
+  - first:
+      213: -132644547652635273
+    second: TDSpriteSheet_89
+  - first:
+      213: -6399445930155254604
+    second: TDSpriteSheet_90
+  - first:
+      213: -1194272732697667599
+    second: TDSpriteSheet_91
+  - first:
+      213: 8661854484325320102
+    second: TDSpriteSheet_92
+  - first:
+      213: -7251606805130134250
+    second: TDSpriteSheet_93
+  - first:
+      213: -1348737618099645855
+    second: TDSpriteSheet_94
+  - first:
+      213: 3308071090747039099
+    second: TDSpriteSheet_95
+  - first:
+      213: 2951897340197063461
+    second: TDSpriteSheet_96
+  - first:
+      213: -1922956576634470916
+    second: TDSpriteSheet_97
+  - first:
+      213: 2498681591916842099
+    second: TDSpriteSheet_98
+  - first:
+      213: 8601644805704277400
+    second: TDSpriteSheet_99
+  - first:
+      213: 2020220743779247105
+    second: TDSpriteSheet_100
+  - first:
+      213: -9152214165413386684
+    second: TDSpriteSheet_101
+  - first:
+      213: -7314701598182393907
+    second: TDSpriteSheet_102
+  - first:
+      213: -7122601006608373761
+    second: TDSpriteSheet_103
+  - first:
+      213: 3105747430555361513
+    second: TDSpriteSheet_104
+  - first:
+      213: 2919318566273535745
+    second: TDSpriteSheet_105
+  - first:
+      213: -426211339841315626
+    second: TDSpriteSheet_106
+  - first:
+      213: 4284860784092335015
+    second: TDSpriteSheet_107
+  - first:
+      213: 5211301886949240559
+    second: TDSpriteSheet_108
+  - first:
+      213: 2972550411377388516
+    second: TDSpriteSheet_109
+  - first:
+      213: -9208814493641180984
+    second: TDSpriteSheet_110
+  - first:
+      213: -1172583895404555038
+    second: TDSpriteSheet_111
+  - first:
+      213: -8343503423181483533
+    second: TDSpriteSheet_112
+  - first:
+      213: 6204916522356056547
+    second: TDSpriteSheet_113
+  - first:
+      213: 1691385743230072103
+    second: TDSpriteSheet_114
+  - first:
+      213: 3302106513734505740
+    second: TDSpriteSheet_115
+  - first:
+      213: -3329722511356705938
+    second: TDSpriteSheet_116
+  - first:
+      213: 2761608714898511198
+    second: TDSpriteSheet_117
+  - first:
+      213: -5662701627484644261
+    second: TDSpriteSheet_118
+  - first:
+      213: 3065583999483480851
+    second: TDSpriteSheet_119
+  - first:
+      213: -4929732088761664559
+    second: TDSpriteSheet_120
+  - first:
+      213: 7711858540653784404
+    second: TDSpriteSheet_121
+  - first:
+      213: 2286337399141920813
+    second: TDSpriteSheet_122
+  - first:
+      213: 993300924557571618
+    second: TDSpriteSheet_123
+  - first:
+      213: 2489682545232470960
+    second: TDSpriteSheet_124
+  - first:
+      213: 2326962469231826403
+    second: TDSpriteSheet_125
+  - first:
+      213: -3367147021453262234
+    second: TDSpriteSheet_126
+  - first:
+      213: -5893670081176209840
+    second: TDSpriteSheet_127
+  - first:
+      213: -2843043823927097624
+    second: TDSpriteSheet_128
+  - first:
+      213: -9133595827547499035
+    second: TDSpriteSheet_129
+  - first:
+      213: 8466095991019701420
+    second: TDSpriteSheet_130
+  - first:
+      213: -1147943767282426733
+    second: TDSpriteSheet_131
+  - first:
+      213: 1806628116941075663
+    second: TDSpriteSheet_132
+  - first:
+      213: 1011549586013242809
+    second: TDSpriteSheet_133
+  - first:
+      213: -457989465581496769
+    second: TDSpriteSheet_134
+  - first:
+      213: -3746512322877943196
+    second: TDSpriteSheet_135
+  - first:
+      213: 2239553912465117919
+    second: TDSpriteSheet_136
+  - first:
+      213: 1588796607432541833
+    second: TDSpriteSheet_137
+  - first:
+      213: 3709372197246367988
+    second: TDSpriteSheet_138
+  - first:
+      213: 2289032671549008464
+    second: TDSpriteSheet_139
+  - first:
+      213: 3720008206536179895
+    second: TDSpriteSheet_140
+  - first:
+      213: -8769416400473973147
+    second: TDSpriteSheet_141
+  - first:
+      213: -1456950291605048363
+    second: TDSpriteSheet_142
+  - first:
+      213: 2123000283224753930
+    second: TDSpriteSheet_143
+  - first:
+      213: -7456680643479932763
+    second: TDSpriteSheet_144
+  - first:
+      213: 5269898294168426070
+    second: TDSpriteSheet_145
+  - first:
+      213: 5875450689187203722
+    second: TDSpriteSheet_146
+  - first:
+      213: -4753305673349725378
+    second: TDSpriteSheet_147
+  - first:
+      213: 7963676565499692562
+    second: TDSpriteSheet_148
+  - first:
+      213: 1775388013475237463
+    second: TDSpriteSheet_149
+  - first:
+      213: -930747972772723176
+    second: TDSpriteSheet_150
+  - first:
+      213: -7507275279570302614
+    second: TDSpriteSheet_151
+  - first:
+      213: 2530725648726604225
+    second: TDSpriteSheet_152
+  - first:
+      213: 7276594084130826700
+    second: TDSpriteSheet_153
+  - first:
+      213: 2474407464314902896
+    second: TDSpriteSheet_154
+  - first:
+      213: 5677560257524357781
+    second: TDSpriteSheet_155
+  - first:
+      213: 1517350793982973452
+    second: TDSpriteSheet_156
+  - first:
+      213: -4196310493129874248
+    second: TDSpriteSheet_157
+  - first:
+      213: 48329088601808634
+    second: TDSpriteSheet_158
+  - first:
+      213: -1315324860976147624
+    second: TDSpriteSheet_159
+  - first:
+      213: -5994083924618460757
+    second: TDSpriteSheet_160
+  - first:
+      213: 5845802838405469722
+    second: TDSpriteSheet_161
+  - first:
+      213: -3187289066636126030
+    second: TDSpriteSheet_162
+  - first:
+      213: 4429422651199825883
+    second: TDSpriteSheet_163
+  - first:
+      213: 8507026702597515088
+    second: TDSpriteSheet_164
+  - first:
+      213: -6032988659768483462
+    second: TDSpriteSheet_165
+  - first:
+      213: 6956313759554668971
+    second: TDSpriteSheet_166
+  - first:
+      213: 2644932810953628342
+    second: TDSpriteSheet_167
+  - first:
+      213: 3536473425165342663
+    second: TDSpriteSheet_168
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Backer
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 47, y: 47, z: 47, w: 47}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed9f53d1e0700990800000000000000
+      internalID: -7421808070690365982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ribbon
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1720
+        width: 328
+        height: 328
+      alignment: 9
+      pivot: {x: 0.5, y: 0.27439025}
+      border: {x: 0, y: 90, z: 0, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc297129eaf42200800000000000000
+      internalID: 154524166433352883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266ac053a2fa5be10800000000000000
+      internalID: 2212867387735975522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbf26ab556605fd0800000000000000
+      internalID: -2355270086729466950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d36117430451eb0800000000000000
+      internalID: -4749819638012560020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21426ad9a97f00470800000000000000
+      internalID: 8358953151841575954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282020b4f8643d20800000000000000
+      internalID: 3257343830631917604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff57f2891d4814840800000000000000
+      internalID: 5206588679953282559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275a6ae30da7a6c90800000000000000
+      internalID: -7175788021438569102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7012e72b0b275280800000000000000
+      internalID: -9054721198891331457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1892
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78f66634eb2bcae0800000000000000
+      internalID: -1528079389396895621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a230c2088c3031130800000000000000
+      internalID: 3536174292094681898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba35a21e96cb1f0800000000000000
+      internalID: -1027830199148631207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed7a06f565c3af60800000000000000
+      internalID: 8044490401124089320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39364158049b47880800000000000000
+      internalID: -8614056500491164781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f28f20389c61b370800000000000000
+      internalID: 8336563786138747637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3e12141ff3a2830800000000000000
+      internalID: 4047117520558220225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce94c0d32985f0540800000000000000
+      internalID: 4976293498380372460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0ad049b2337d660800000000000000
+      internalID: 7410447974121971878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab97c973dd2687230800000000000000
+      internalID: 3636765401361971642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1720
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7917b0e64c85ea4f0800000000000000
+      internalID: -815616881824403049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd0f95e5713c11f0800000000000000
+      internalID: -1072928228787679788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf9a564c7d63a6d0800000000000000
+      internalID: -2980418147865419836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2f99738243dbc20800000000000000
+      internalID: 3223790255603315432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d574443a8419b50800000000000000
+      internalID: 6598134795136884011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cebcfe9e7be751f0800000000000000
+      internalID: -1056116658529321280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b2ab731b488fe90800000000000000
+      internalID: -6991692524813669484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433055a1c93c878e0800000000000000
+      internalID: -1695390184480898252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470584205d429ca40800000000000000
+      internalID: 5388878926410436724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1183b4fe54cd41640800000000000000
+      internalID: 5049903275114706961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3912035aaf848520800000000000000
+      internalID: 2703443638028998975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe11fcbe540dd520800000000000000
+      internalID: 2728341754199744190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1548
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b387c35ef5865d240800000000000000
+      internalID: 4815870137619740731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21a4cc2ad0c9b0d0800000000000000
+      internalID: -3406479599842582229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a885350bb15340800000000000000
+      internalID: 4850863904702113359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c9eb813290db9f0800000000000000
+      internalID: -451194341323531161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7b9c127793bc950800000000000000
+      internalID: 6470328473478608839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ddb26dc848cdd30800000000000000
+      internalID: 4457583471613435288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dff085f3ee4fd970800000000000000
+      internalID: 8781824539379171288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c911ba20c6822e10800000000000000
+      internalID: 2171446130254092737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9502037b999c540800000000000000
+      internalID: 5028719471001360895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bbd7c25b7b24380800000000000000
+      internalID: -8988419917514687634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c01e5f9d137ffaf0800000000000000
+      internalID: -360442874101362496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d944a99241bc9de0800000000000000
+      internalID: -1324989290750129706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1376
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c455835fb162d2940800000000000000
+      internalID: 5272912640240801100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16df7df775a42aa0800000000000000
+      internalID: -6186638053327514085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0311c47f2799e90800000000000000
+      internalID: -7018452137821523764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5a0e987de5ab30800000000000000
+      internalID: 4298102521698344194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65caa34764b8ca020800000000000000
+      internalID: 2354409839921900630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6c1e9b5231477d0800000000000000
+      internalID: -2921689205503310167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a632c30fada9bc2a0800000000000000
+      internalID: -6716104154168941718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaf3e6aa17ac45a0800000000000000
+      internalID: -6535665226310485318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a438df00331750b80800000000000000
+      internalID: -8429206663680130230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de5bf26cb74d1ff0800000000000000
+      internalID: -63815945273254188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a54781163a68d2a0800000000000000
+      internalID: -6712498464140868190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2fe94fea39b20d0800000000000000
+      internalID: -3446498710184332549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1204
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae870e10ba556150800000000000000
+      internalID: 5865193802184494763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68c8e2c1f9bad110800000000000000
+      internalID: 1286545091575990380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d76279787ef4c4e0800000000000000
+      internalID: -1962163744239622186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85167acd9c953330800000000000000
+      internalID: 3690027671220524429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6813f4afee8150800000000000000
+      internalID: 5876898055497214496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721d3375d80ba3f60800000000000000
+      internalID: 8014912607959109927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996877c02fe2b9a90800000000000000
+      internalID: -7306194353352374631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4e53a086038b380800000000000000
+      internalID: -8955354635620195147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18969fe4898fc1b0800000000000000
+      internalID: -5634133404768888803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b21983476f4aa80800000000000000
+      internalID: -8456363221269271654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada7f30b62507d480800000000000000
+      internalID: -8874618876986426662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ecdd475a4420de0800000000000000
+      internalID: -1368455859346223462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1032
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73caf2de7c22f8bf0800000000000000
+      internalID: -319998806446855113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0cf79b8d9d68600800000000000000
+      internalID: 470302735955116221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a503fe59793f19890800000000000000
+      internalID: -7452908075940368294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46552edc3a6b07990800000000000000
+      internalID: -7390206173864897180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3c61ce15d5e0690800000000000000
+      internalID: -7634061711911763035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705b0e31a338c40f0800000000000000
+      internalID: -1131385120912001785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb950d5b29121b70800000000000000
+      internalID: 8868178290280864761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63613cd357febf40800000000000000
+      internalID: 5746302114119902059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91dfbfb10da7d810800000000000000
+      internalID: 1790089599926653339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217cdf54de0502830800000000000000
+      internalID: 4044321445390436114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f419f1085b75710800000000000000
+      internalID: 1682012547736227708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d97284e8830f1890800000000000000
+      internalID: -7485260169182283304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 860
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29eeb28e05d4be60800000000000000
+      internalID: 7977235098279799085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dd63820cb3248c0800000000000000
+      internalID: -4016582221166617206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed17a8c8509d61050800000000000000
+      internalID: 5771038590377816542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e447edc615f8e16b0800000000000000
+      internalID: -5323660129623706546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f532953fe781dc670800000000000000
+      internalID: 8560525400228832095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4298aa65646a8710800000000000000
+      internalID: 1696278596402319950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775b5c79c70c82ef0800000000000000
+      internalID: -132644547652635273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcd6cd05d99037a0800000000000000
+      internalID: -6399445930155254604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7de92f6471d6fe0800000000000000
+      internalID: -1194272732697667599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5c552d2c6153870800000000000000
+      internalID: 8661854484325320102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61db969080e1d5b90800000000000000
+      internalID: -7251606805130134250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162d6f14842584de0800000000000000
+      internalID: -1348737618099645855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 688
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d57bf4121a8ed20800000000000000
+      internalID: 3308071090747039099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bcdd7bdfe37f820800000000000000
+      internalID: 2951897340197063461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd733b8e294055e0800000000000000
+      internalID: -1922956576634470916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cc2055ba91da220800000000000000
+      internalID: 2498681591916842099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d5618906e2f5770800000000000000
+      internalID: 8601644805704277400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10466d81014490c10800000000000000
+      internalID: 2020220743779247105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446ac3205bdccf080800000000000000
+      internalID: -9152214165413386684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc73b52c6a5fc7a90800000000000000
+      internalID: -7314701598182393907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a4442f10772d90800000000000000
+      internalID: -7122601006608373761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0a55845d4d91b20800000000000000
+      internalID: 3105747430555361513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fcfe0d4c0838820800000000000000
+      internalID: 2919318566273535745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcd3896b0bc51af0800000000000000
+      internalID: -426211339841315626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 516
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab43d35e22e67b30800000000000000
+      internalID: 4284860784092335015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeaeec9473425840800000000000000
+      internalID: 5211301886949240559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb271399de904920800000000000000
+      internalID: 2972550411377388516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87c082208b33080800000000000000
+      internalID: -9208814493641180984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45115e8252abfe0800000000000000
+      internalID: -1172583895404555038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f11307a7dbe53c80800000000000000
+      internalID: -8343503423181483533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e12cf7b3ba4c1650800000000000000
+      internalID: 6204916522356056547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72573634f52097710800000000000000
+      internalID: 1691385743230072103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0516a1016073dd20800000000000000
+      internalID: 3302106513734505740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6346fd74037ac1d0800000000000000
+      internalID: -3329722511356705938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55162c9e74335620800000000000000
+      internalID: 2761608714898511198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c50c04fda0a61b0800000000000000
+      internalID: -5662701627484644261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 344
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8556c7642b8a20800000000000000
+      internalID: 3065583999483480851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db348bb8c2169bb0800000000000000
+      internalID: -4929732088761664559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d2bb9cb76060b60800000000000000
+      internalID: 7711858540653784404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d207b8040c3babf10800000000000000
+      internalID: 2286337399141920813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226325b9de9e8cd00800000000000000
+      internalID: 993300924557571618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3621085112d8220800000000000000
+      internalID: 2489682545232470960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e59a3879080b4020800000000000000
+      internalID: 2326962469231826403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66283c7bf9d7541d0800000000000000
+      internalID: -3367147021453262234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f424894a753ea0800000000000000
+      internalID: -5893670081176209840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e605f984ba7b88d0800000000000000
+      internalID: -2843043823927097624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e59a099cf2fe3180800000000000000
+      internalID: -9133595827547499035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca48613d27d9d7570800000000000000
+      internalID: 8466095991019701420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 172
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cd109c93fa110f0800000000000000
+      internalID: -1147943767282426733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4718f43be621910800000000000000
+      internalID: 1806628116941075663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b543033dfeb90e00800000000000000
+      internalID: 1011549586013242809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36d421f105e4a9f0800000000000000
+      internalID: -457989465581496769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4629c3864e6b10cc0800000000000000
+      internalID: -3746512322877943196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2d1dfea6e741f10800000000000000
+      internalID: 2239553912465117919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986cc5eb81a8c0610800000000000000
+      internalID: 1588796607432541833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8749c3c565a7330800000000000000
+      internalID: 3709372197246367988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a21f2461744cf10800000000000000
+      internalID: 2289032671549008464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0802021cf10a330800000000000000
+      internalID: 3720008206536179895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e93420f36cc4680800000000000000
+      internalID: -8769416400473973147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3ba75dd6fd7cbe0800000000000000
+      internalID: -1456950291605048363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TDSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 0
+        width: 156
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074aab6289667d10800000000000000
+      internalID: 2123000283224753930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9ba6cd27f7c36b846ab7de8e3b150f62
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
