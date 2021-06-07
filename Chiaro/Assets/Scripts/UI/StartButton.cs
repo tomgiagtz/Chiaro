@@ -17,6 +17,7 @@ public class StartButton : MonoBehaviour
     // Update is called once per frame
     void LoadGameScene()
     {
+        Debug.Log("ahwa");
         SceneManager.LoadScene(sceneName);
     }
 }

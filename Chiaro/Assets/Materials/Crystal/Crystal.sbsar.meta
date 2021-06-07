@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: ed3215f9e009fad468b8d22e5891b811
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 2
+  mGraphInstanceData:
+  - graphLabel: Crystal
+    prototypeName: Crystal
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Crystal\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Shader Graphs/S_CrystalText
+    materialProperties:
+      shader: {fileID: -6465566751694194690, guid: d8f7fef75e9817d45822368d759502ef, type: 3}
+      shaderKeywords: _HEIGHTMAP _METALLICGLOSSMAP _METALLICSPECGLOSSMAP _NORMALMAP
+        _OCCLUSIONMAP _ROUGHNESSMAP
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
+      texEnvs:
+      - name: _SampleTexture2D_4ba890a5cb004013bac140bbf7f3f5fd_Texture_1
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SampleTexture2D_6c167b85657345ada435d725f35cf55d_Texture_1
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SampleTexture2D_6edd8198cdff48d8b37209aaf2e14500_Texture_1
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SampleTexture2D_da594b6a85f542cca8462ef2010139c2_Texture_1
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SampleTexture2D_eea189a96221445c82f641bb28048fea_Texture_1
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: unity_Lightmaps
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: unity_LightmapsInd
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: unity_ShadowMasks
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: Vector1_28f5a54ae8a743fbb100a89f0813043f
+        float: 1
+      - name: Vector1_57128b4f695746ddbe6575bd78f239b1
+        float: 0.2
+      - name: Vector1_60b03c3dc8ae452b9d74003c2eafa2b3
+        float: 1
+      - name: Vector1_6883f58c3a7c4385a540862137750701
+        float: 1
+      - name: Vector1_7061133b61ae422baeab227aa7a6b3e2
+        float: 1
+      - name: Vector1_b4a7fa8c7af044cc825ca70c038be81d
+        float: 1
+      - name: Vector1_f3605c2c5bb249d5b1c7eb63e7dce9b1
+        float: 1
+      colors:
+      - name: Color_7bfc96f5715448e890259977a7514c7f
+        color: {r: 1, g: 1, b: 1, a: 0}
+      - name: Color_a01c90796bff41cb87b4b29e1e63afd5
+        color: {r: 0.23839766, g: 0.035601325, b: 0.50888145, a: 0}
+    outputDescList:
+    - outputName: baseColor
+      identifier: basecolor
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: roughness
+      usageName: roughness
+      channelStr: roughness
+      label: Roughness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: metallic
+      identifier: metallic
+      usageName: metallic
+      channelStr: metallic
+      label: Metallic
+      usage: 34
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: height
+      identifier: height
+      usageName: height
+      channelStr: height
+      label: Height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: ambientOcclusion
+      identifier: ambientocclusion
+      usageName: ambientOcclusion
+      channelStr: ambientOcclusion
+      label: Ambient Occlusion
+      usage: 5
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: emissive
+      identifier: emmisive
+      usageName: emissive
+      channelStr: emissive
+      label: Emmisive
+      usage: 3
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: baseColor
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    - targetName: metallic
+      components:
+      - sourceName: smoothness
+        from: 0
+        to: 3
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    - targetName: ambientOcclusion
+      components:
+      - sourceName: ambientOcclusion
+        from: 0
+        to: 3
+    - targetName: emissive
+      components:
+      - sourceName: emissive
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Crystal - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Crystal - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Crystal - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Crystal - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Crystal - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Crystal - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Crystal - emissive
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -5189715152625664583, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    generatedTextures:
+    - {fileID: -8225947265295349613, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    - {fileID: 587594292604265629, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    - {fileID: -4288059352348633084, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    - {fileID: 3459999743653919715, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    - {fileID: 6812709241338708986, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    - {fileID: -5291734596050459959, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+    - {fileID: 1908310050748499010, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}

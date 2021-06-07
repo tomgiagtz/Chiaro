@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Crystal
   m_Shader: {fileID: -6465566751694194690, guid: b9b43272509bc1e4f8e98fe33ef4ece0, type: 3}
-  m_ShaderKeywords: _METALLICSPECGLOSSMAP
+  m_ShaderKeywords: _METALLICSPECGLOSSMAP _NORMALMAP
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -80,6 +80,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 69d589ea12e1f324da7c2f20d7463c9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_81432fd7c729413cb796ca8ae7cc1f6b_Texture_1:
+        m_Texture: {fileID: 1908310050748499010, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_bd2ea2ce107e483daf2c3acf0efda9e1_Texture_1:
         m_Texture: {fileID: 2800000, guid: 02087c21f1c926a428c50c807ccdf964, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -100,6 +104,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 08356d7cc2611c141bc467ff21b44ab9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f876d0ba41ac4c3e8067098385587156_Texture_1:
+        m_Texture: {fileID: -5291734596050459959, guid: ed3215f9e009fad468b8d22e5891b811, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 2800000, guid: 104e375aa2d02ed44888a03ab5c9bcea, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -118,10 +126,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_0f95761343584652abb49909d53b3a95: 1
-    - Vector1_28f5a54ae8a743fbb100a89f0813043f: 0.97
-    - Vector1_60b03c3dc8ae452b9d74003c2eafa2b3: 1.31
-    - Vector1_7061133b61ae422baeab227aa7a6b3e2: 1
-    - Vector1_f3605c2c5bb249d5b1c7eb63e7dce9b1: 1.75
+    - Vector1_28f5a54ae8a743fbb100a89f0813043f: 1
+    - Vector1_60b03c3dc8ae452b9d74003c2eafa2b3: 1
+    - Vector1_6883f58c3a7c4385a540862137750701: 1
+    - Vector1_7061133b61ae422baeab227aa7a6b3e2: 0.5
+    - Vector1_b4a7fa8c7af044cc825ca70c038be81d: 1.5
+    - Vector1_f3605c2c5bb249d5b1c7eb63e7dce9b1: 0.76
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
