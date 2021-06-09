@@ -18,15 +18,17 @@ public class Node : MonoBehaviour
     }
 
     private void OnMouseEnter() {
-        
-        mesh.materials[1].color = highlightColor;
+        if (!GameController.Instance.isGamePaused)
+            mesh.materials[1].color = highlightColor;
     }
 
-    private void OnMouseExit() {
+    private void OnMouseExit() {   
         mesh.materials[1].color = defaultColor;
     }
 
     private void OnMouseDown() {
+        if (GameController.Instance.isGamePaused)
+            return;
         TowerValues selectedTowerValues = ShopController.Instance.selectedTower;
         switch (ShopController.Instance.mode) {
             case SelectionMode.Buy: 

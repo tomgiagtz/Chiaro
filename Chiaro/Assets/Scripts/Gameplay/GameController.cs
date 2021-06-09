@@ -9,6 +9,8 @@ public class GameController : MonoSingleton<GameController> {
     [SerializeField]
     private int lifeCount = 100;
 
+    public bool isGamePaused;
+
 	public int CoinCount() {
 		return this.coinCount;
 	}

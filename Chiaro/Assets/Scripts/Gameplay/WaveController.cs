@@ -92,7 +92,9 @@ public class WaveController : MonoSingleton<WaveController>
         
     }
 
-    float timeBetweenWaves = 3f;
+
+    //should wait for last enemy to die
+    public float timeBetweenWaves = 5f;
     IEnumerator WaitForNextWave() {
         isSpawning = false;
         

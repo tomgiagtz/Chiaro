@@ -20,6 +20,15 @@ TextureImporter:
   - first:
       213: 8726669052355629811
     second: Gradient
+  - first:
+      213: -6535209033501866619
+    second: Button Backer
+  - first:
+      213: -7676174373636019578
+    second: Pause Icon
+  - first:
+      213: 8920831325220275467
+    second: Menu Icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -223,10 +232,10 @@ TextureImporter:
       name: Blueprint
       rect:
         serializedVersion: 2
-        x: 12
-        y: 524
-        width: 491
-        height: 486
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +253,10 @@ TextureImporter:
       name: Horn
       rect:
         serializedVersion: 2
-        x: 529
-        y: 833
-        width: 209
-        height: 166
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,6 +287,69 @@ TextureImporter:
       bones: []
       spriteID: 3f25d0a644b5b1970800000000000000
       internalID: 8726669052355629811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Backer
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585823152064e45a0800000000000000
+      internalID: -6535209033501866619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause Icon
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae779c310c87590800000000000000
+      internalID: -7676174373636019578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Icon
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b058ee063d82dcb70800000000000000
+      internalID: 8920831325220275467
       vertices: []
       indices: 
       edges: []
