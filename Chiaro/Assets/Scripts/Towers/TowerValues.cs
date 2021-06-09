@@ -6,6 +6,7 @@ using UnityEngine;
 public class TowerValues : ScriptableObject
 {
     public int cost;
+    public int sellPrice;
     public float range;
     public float damage;
     //shots per second

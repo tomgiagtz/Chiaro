@@ -14,7 +14,7 @@ public class WaveController : MonoSingleton<WaveController>
     //data
     public List<Wave> waves;
     public Wave currWave;
-    public bool isSpawning, spawnsFinished;
+    public bool isSpawning, spawnsFinished, hasWinCondition, allWavesSpawned;
     public GameObject winDisplay;
     List<GameObject> aliveEnemies = new List<GameObject>();
 
@@ -24,7 +24,6 @@ public class WaveController : MonoSingleton<WaveController>
     {
         winDisplay.SetActive(false);
         waves = new List<Wave>(waveListData.waves);
-        InitWaveDisplay();
         foreach (Wave w in waves)
         {
             WaveErrors err = w.IsValid();
@@ -44,6 +43,7 @@ public class WaveController : MonoSingleton<WaveController>
         aliveEnemies.RemoveAll(item => item == null);
         if (waves.Count == 0 && spawnsFinished && aliveEnemies.Count == 0) {
             winDisplay.SetActive(true);
+            hasWinCondition = true;
         }
 
         if (currWave != null && !spawnsFinished && isSpawning) {
@@ -79,9 +79,9 @@ public class WaveController : MonoSingleton<WaveController>
 
     void NextWave() {
         StartCoroutine("WaitForNextWave");
-        waveProgress = 1f;
+        waveProgress = 0f;
 
-        WaveDisplayController.Instance.NextWave();
+        WaveDisplayController.Instance.OnWaveComplete();
         waves.RemoveAt(0);
         if (waves.Count > 0) {
             currWave = waves[0];
@@ -95,11 +95,14 @@ public class WaveController : MonoSingleton<WaveController>
     float timeBetweenWaves = 3f;
     IEnumerator WaitForNextWave() {
         isSpawning = false;
+        
         yield return new WaitForSeconds(timeBetweenWaves);
+        //start next wave
         isSpawning = true;
         waveProgress = 0f;
 
     }
+    
 
     EnemyValues GetEnemyType() {
         float rand = Random.Range(1f, 100f);
@@ -120,11 +123,11 @@ public class WaveController : MonoSingleton<WaveController>
     }
 
 
-    void InitWaveDisplay() {
-        waveDisplay = gameObject.AddComponent<WaveDisplayController>();
-        waveDisplay.waves = waves;
-        waveDisplay.waveScroll = waveScroll;
-    }
+    // void InitWaveDisplay() {
+    //     waveDisplay = gameObject.AddComponent<WaveDisplayController>();
+    //     waveDisplay.waves = waves;
+    //     waveDisplay.waveScroll = waveScroll;
+    // }
 
 
 

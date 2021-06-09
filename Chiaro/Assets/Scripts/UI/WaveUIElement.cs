@@ -6,9 +6,10 @@ using TMPro;
 
 public class WaveUIElement : MonoBehaviour
 {
-    Wave waveData;
-    TextMeshProUGUI waveLabel;
-    Image waveBacker;
+
+    //set in inspector
+    public TextMeshProUGUI waveLabel;
+    public Image waveBacker;
 
     // Update is called once per frame
     void Update()
@@ -17,8 +18,9 @@ public class WaveUIElement : MonoBehaviour
     }
     
     //should be called whenever gameobject is made
-    void Init(){
-        waveLabel.SetText(waveData.name);
+    public void InitWaveUI(Wave waveData){
+        Debug.Log("HEre" + waveData.waveName);
+        waveLabel.SetText(waveData.waveName);
         waveBacker.color = waveData.GetWaveUIColor();
     }
 }
