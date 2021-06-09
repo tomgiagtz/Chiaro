@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Ballista Lvl 1
   m_EditorClassIdentifier: 
   cost: 10
+  sellPrice: 2
   range: 3
   damage: 1
   rateOfFire: 1.5

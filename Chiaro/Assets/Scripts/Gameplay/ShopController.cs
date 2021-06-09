@@ -4,7 +4,7 @@ using UnityEngine;
 public enum SelectionMode {
         Buy,
         Upgrade,
-        Destroy
+        Sell
 
     };
 public class ShopController : MonoSingleton<ShopController>

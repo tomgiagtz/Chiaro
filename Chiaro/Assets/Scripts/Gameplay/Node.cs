@@ -27,16 +27,17 @@ public class Node : MonoBehaviour
     }
 
     private void OnMouseDown() {
-
+        TowerValues selectedTowerValues = ShopController.Instance.selectedTower;
         switch (ShopController.Instance.mode) {
             case SelectionMode.Buy: 
-                towerGO = Instantiate(ShopController.Instance.selectedTower.prefab, transform.position + offset, transform.rotation);
+                towerGO = Instantiate(selectedTowerValues.prefab, transform.position + offset, transform.rotation);
                 break;
             case SelectionMode.Upgrade: 
                 Destroy(towerGO);
-                towerGO = Instantiate(ShopController.Instance.selectedTower.upgrade, transform.position + offset, transform.rotation);
+                towerGO = Instantiate(selectedTowerValues.upgrade, transform.position + offset, transform.rotation);
                 break;
-            case SelectionMode.Destroy: 
+            case SelectionMode.Sell: 
+                GameController.Instance.AddCoins(selectedTowerValues.sellPrice);
                 Destroy(towerGO);
                 break;
 
