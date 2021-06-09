@@ -16,7 +16,7 @@ public class Tower : MonoBehaviour, ITower
     public TowerValues towerValues;
     [SerializeField] LayerMask targetMask;
     List<GameObject> validTargets = new List<GameObject>();
-    EnemyClasses damageableEnemyClass = EnemyClasses.All;
+    EnemyClasses damageableEnemyClasses = EnemyClasses.All;
     float fireCooldown = 0;
     Enemy targetEnemy;
     // Start is called before the first frame update
