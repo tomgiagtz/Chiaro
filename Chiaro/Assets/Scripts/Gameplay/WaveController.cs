@@ -1,21 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class WaveController : MonoSingleton<WaveController>
 {
-    public WaveList waveList;
-    List<Wave> waves;
+    //set in inspector
+    public WaveList waveListData;
+    public Scrollbar waveScroll;
+
+
+    //data
+    public List<Wave> waves;
     public Wave currWave;
     public bool isSpawning, spawnsFinished;
     public GameObject winDisplay;
     List<GameObject> aliveEnemies = new List<GameObject>();
+
+    WaveDisplayController waveDisplay;
     // Start is called before the first frame update
     void Start()
     {
         winDisplay.SetActive(false);
-        waves = new List<Wave>(waveList.waves);
+        waves = new List<Wave>(waveListData.waves);
+        InitWaveDisplay();
         foreach (Wave w in waves)
         {
             WaveErrors err = w.IsValid();
@@ -43,6 +52,7 @@ public class WaveController : MonoSingleton<WaveController>
     }
 
     float spawnCooldown = 0f;
+    public float waveProgress = 0f;
     [HideInInspector]
     public int numEnemiesSpawned = 0;
     void IsSpawning() {
@@ -52,8 +62,10 @@ public class WaveController : MonoSingleton<WaveController>
                 SpawnEnemy(enemyValue);
                 spawnCooldown = 1f / currWave.spawnRate;
                 numEnemiesSpawned++;
+                waveProgress = (float) numEnemiesSpawned / currWave.numberOfEnemies;
             } else {
                 Debug.Log("NextWave");
+                waveProgress = 1f;
                 NextWave();
                 numEnemiesSpawned = 0;
             }
@@ -67,6 +79,9 @@ public class WaveController : MonoSingleton<WaveController>
 
     void NextWave() {
         StartCoroutine("WaitForNextWave");
+        waveProgress = 1f;
+
+        WaveDisplayController.Instance.NextWave();
         waves.RemoveAt(0);
         if (waves.Count > 0) {
             currWave = waves[0];
@@ -82,6 +97,7 @@ public class WaveController : MonoSingleton<WaveController>
         isSpawning = false;
         yield return new WaitForSeconds(timeBetweenWaves);
         isSpawning = true;
+        waveProgress = 0f;
 
     }
 
@@ -102,6 +118,14 @@ public class WaveController : MonoSingleton<WaveController>
         Debug.LogWarning("Enemy Type Not Found" + currWave);
         return currWave.enemyTypes[0];
     }
+
+
+    void InitWaveDisplay() {
+        waveDisplay = gameObject.AddComponent<WaveDisplayController>();
+        waveDisplay.waves = waves;
+        waveDisplay.waveScroll = waveScroll;
+    }
+
 
 
 }

@@ -41,5 +41,24 @@ public class Wave : ScriptableObject
 
         return WaveErrors.None;
     }
+
+
+    public Color GetWaveUIColor() {
+        switch (waveType)
+        {
+            case WaveTypes.Standard: 
+                return Color.green;
+
+            case WaveTypes.Flying: 
+                return Color.blue;
+
+            case WaveTypes.Fast: 
+                return Color.red;
+            
+            default:
+                return Color.green;
+        }
+    }
+    
     
 }
