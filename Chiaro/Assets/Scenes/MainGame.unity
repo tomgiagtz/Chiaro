@@ -23933,13 +23933,14 @@ GameObject:
   - component: {fileID: 1427475739}
   - component: {fileID: 1427475741}
   - component: {fileID: 1427475740}
+  - component: {fileID: 1427475742}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1427475739
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23997,6 +23998,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427475738}
   m_CullTransparentMesh: 1
+--- !u!114 &1427475742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427475738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5029bfb9d45e0a84b9fa9f83f1159b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: {x: 0, y: 400, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  setEndToTransform: 1
+  willDisableOnStart: 1
+  tweenTime: 0.3
+  showEase:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  hideEase:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1428234078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24773,7 +24803,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1222617503}
   m_HandleRect: {fileID: 1222617502}
   m_Direction: 0
-  m_Value: 0.00000019073487
+  m_Value: 0
   m_Size: 0.71428573
   m_NumberOfSteps: 0
   m_OnValueChanged:
