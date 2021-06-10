@@ -29,6 +29,9 @@ TextureImporter:
   - first:
       213: 8920831325220275467
     second: Menu Icon
+  - first:
+      213: -8573840431798954132
+    second: X Icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -350,6 +353,27 @@ TextureImporter:
       bones: []
       spriteID: b058ee063d82dcb70800000000000000
       internalID: 8920831325220275467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: X Icon
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67ddbdad89930980800000000000000
+      internalID: -8573840431798954132
       vertices: []
       indices: 
       edges: []

@@ -15,6 +15,7 @@ public enum WaveErrors {
     ArrayLengthMismatch,
     InvalidSpawnRateSum
 }
+
 [CreateAssetMenu(fileName = "Wave", menuName="Values/Wave")]
 public class Wave : ScriptableObject
 {
@@ -47,16 +48,16 @@ public class Wave : ScriptableObject
         switch (waveType)
         {
             case WaveTypes.Standard: 
-                return Color.green;
+                return Color.blue;
 
             case WaveTypes.Flying: 
-                return Color.blue;
+                return Color.yellow;
 
             case WaveTypes.Fast: 
                 return Color.red;
             
             default:
-                return Color.green;
+                return Color.blue;
         }
     }
     

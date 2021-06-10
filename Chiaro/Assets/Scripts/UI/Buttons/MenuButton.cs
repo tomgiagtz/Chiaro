@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class MenuButton : MonoBehaviour {
     Button button;
+
+    public bool hasKeyBoardInput = false;
     public KeyCode pauseKey = KeyCode.Escape;
     void Start() {
         button = GetComponent<Button>();
@@ -13,7 +15,8 @@ public class MenuButton : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetKeyDown(pauseKey)) {
+        Debug.Log(hasKeyBoardInput);
+        if (Input.GetKeyDown(pauseKey) && hasKeyBoardInput) {
             Pause();
         }
     }
