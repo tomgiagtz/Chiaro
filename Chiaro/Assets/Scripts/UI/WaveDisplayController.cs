@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Pixelplacement;
 
 [RequireComponent(typeof(WaveController))]
 public class WaveDisplayController : MonoSingleton<WaveDisplayController>
@@ -43,10 +44,12 @@ public class WaveDisplayController : MonoSingleton<WaveDisplayController>
     }
 
     // Update is called once per frame
+
     void Update()
     {       
-        float waveProgress = waveController.waveProgress;
-        UpdateScrollPosition(waveProgress);
+
+        if (waveController.waveProgress > 0)
+            UpdateScrollPosition(waveController.waveProgress);
     }
 
     float currScrollValue, targetScrollValue, prevScrollValue;
@@ -57,25 +60,41 @@ public class WaveDisplayController : MonoSingleton<WaveDisplayController>
             //dont attempt to update if there are no wave ui elements
             return;
         }
+        Debug.Log(waveProgress);
+        Debug.Log(targetScrollValue);
+        if (targetScrollValue < waveProgress) {
+            //update scroll value when progress is increased
+            Tween.Value(targetScrollValue, waveProgress, UpdateScrollValue, 1 / waveController.currWave.spawnRate, 0);
+
+            targetScrollValue = waveProgress;
+        }
+
+
+
+
 
         //wave scroll value at zero when currwave progress == 0
         //wave scroll value at 0.5 when currwave progess == 1
-
 
         // Debug.Log("source: " + waveProgress);
         // Debug.Log("target: " + targetScrollValue);
         // Debug.Log("curr: " + currScrollValue);
 
 
-        if (targetScrollValue == waveProgress) {
-            //currently scrolling to target
-            currScrollValue = Mathf.Lerp(currScrollValue, targetScrollValue, Time.deltaTime * waveController.currWave.spawnRate);
-        } else if (targetScrollValue < waveProgress) {
-            //waveProgress was updated
-            targetScrollValue = waveProgress;
-        } 
+        // if (targetScrollValue == waveProgress) {
+        //     //currently scrolling to target
+        //     // currScrollValue = Mathf.Lerp(currScrollValue, targetScrollValue, Time.deltaTime * waveController.currWave.spawnRate);
+            
+        // } else if (targetScrollValue < waveProgress) {
+        //     Tween.Value(waveScroll, targetScrollValue, UpdateScrollValue, waveController.currWave.spawnRate, 0);
+        //     targetScrollValue = waveProgress;
+        // } 
 
-        waveScroll.value = currScrollValue / 2f;
+        // waveScroll.value = currScrollValue / 2f; 
+    }
+
+    void UpdateScrollValue(float value) {
+        waveScroll.value = value / 2f;
     }
 
 
