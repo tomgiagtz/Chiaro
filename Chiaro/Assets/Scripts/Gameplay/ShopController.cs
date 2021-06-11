@@ -11,6 +11,8 @@ public class ShopController : MonoSingleton<ShopController>
 {
     // Start is called before the first frame update
     public TowerValues selectedTower;
+
+
     
 
 
@@ -37,6 +39,20 @@ public class ShopController : MonoSingleton<ShopController>
     public void ToggleMode() {
         int numModes = SelectionMode.GetValues(typeof(SelectionMode)).Length;
         mode = (SelectionMode) (((int) mode == numModes -1) ? 0 : (int) mode + 1);
+    }
+
+    public void ChangeSelectedTower(TowerValues tower) {
+        selectedTower = tower;
+    }
+
+    public bool AttemptBuy(GameObject selection) {
+        Node node = selection.GetComponent<Node>();
+        if (!node.towerGO && selectedTower.CanAfford()) {
+            Instantiate(selectedTower.prefab, selection.transform.position + node.offset, selection.transform.rotation);
+        }
+        return false;
+
+        
     }
 
 

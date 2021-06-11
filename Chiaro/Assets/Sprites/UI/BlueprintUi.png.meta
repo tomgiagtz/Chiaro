@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: 1501974333436244760
     second: RoundMask
+  - first:
+      213: -446549290960396276
+    second: Blueprint Disabled
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -398,6 +401,27 @@ TextureImporter:
       bones: []
       spriteID: 813b83ec2b518d410800000000000000
       internalID: 1501974333436244760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blueprint Disabled
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c006a9929c98dc9f0800000000000000
+      internalID: -446549290960396276
       vertices: []
       indices: 
       edges: []

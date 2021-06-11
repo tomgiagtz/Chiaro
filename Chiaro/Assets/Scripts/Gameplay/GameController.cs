@@ -25,6 +25,10 @@ public class GameController : MonoSingleton<GameController> {
         coinCount += value;
     }
 
+    public void RemoveCoins(int value) {
+        coinCount -= value;
+    }
+
     public void RemoveLives(int value) {
         lifeCount -= value;
     }

@@ -30,13 +30,17 @@ public class Node : MonoBehaviour
         if (GameController.Instance.isGamePaused)
             return;
         TowerValues selectedTowerValues = ShopController.Instance.selectedTower;
+
+       
+
+        
         switch (ShopController.Instance.mode) {
             case SelectionMode.Buy: 
-                towerGO = Instantiate(selectedTowerValues.prefab, transform.position + offset, transform.rotation);
+                 ShopController.Instance.AttemptBuy(gameObject);
                 break;
             case SelectionMode.Upgrade: 
                 Destroy(towerGO);
-                towerGO = Instantiate(selectedTowerValues.upgrade, transform.position + offset, transform.rotation);
+                // towerGO = Instantiate(selectedTowerValues.upgrade, transform.position + offset, transform.rotation);
                 break;
             case SelectionMode.Sell: 
                 GameController.Instance.AddCoins(selectedTowerValues.sellPrice);

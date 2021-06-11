@@ -13413,7 +13413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &884489007
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31151,8 +31151,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1222617503}
   m_HandleRect: {fileID: 1222617502}
   m_Direction: 0
-  m_Value: 0.00000019073487
-  m_Size: 0.71428573
+  m_Value: 0.0000001907348
+  m_Size: 0.7142856
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -39545,6 +39545,18 @@ PrefabInstance:
     - target: {fileID: 4184332490918185266, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
       propertyPath: m_Name
       value: TurretButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_Interactable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb8faa62d486f234c8d16980f1032307, type: 3}

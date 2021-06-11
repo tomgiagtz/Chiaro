@@ -16,6 +16,18 @@ public class TowerValues : ScriptableObject
     public GameObject upgrade;
 
     public Sprite sprite;
+
+    public bool CanAfford() {
+        return cost > GameController.Instance.CoinCount();
+    }
+
+    public void Buy() {
+        GameController.Instance.RemoveCoins(cost);
+    }
+
+    public void Sell() {
+        GameController.Instance.AddCoins(sellPrice);
+    }
 }
 
 
