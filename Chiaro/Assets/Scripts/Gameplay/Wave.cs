@@ -25,7 +25,7 @@ public class Wave : ScriptableObject
     public int numberOfEnemies;
     public List<EnemyValues> enemyTypes = new List<EnemyValues>();
     public float[] enemySpawnRates;
-    //numEnemies per second
+    [Tooltip("Number of enemies per second")]
     public float spawnRate = 1;
 
     public WaveErrors IsValid() {

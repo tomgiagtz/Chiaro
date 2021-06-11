@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f0bc66dd2c1a04790e881ad1ad321e, type: 3}
   m_Name: Wave 10
   m_EditorClassIdentifier: 
-  waveName: Fast
-  waveType: 1
+  waveName: Brute
+  waveType: 3
   numberOfEnemies: 3
   enemyTypes:
-  - {fileID: 11400000, guid: 3a75dab6860d20141b3bc4f026d67ffc, type: 2}
+  - {fileID: 11400000, guid: 5cc989f648493e3479b6eba13c782bbe, type: 2}
   enemySpawnRates:
   - 100
   spawnRate: 0.5

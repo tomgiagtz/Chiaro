@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveName: Standard
   waveType: 0
-  numberOfEnemies: 3
+  numberOfEnemies: 20
   enemyTypes:
-  - {fileID: 11400000, guid: 2fc909a443b66024f8b2964e6edc02dc, type: 2}
+  - {fileID: 11400000, guid: 3a75dab6860d20141b3bc4f026d67ffc, type: 2}
   enemySpawnRates:
   - 100
-  spawnRate: 0.25
+  spawnRate: 1

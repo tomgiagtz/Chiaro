@@ -4792,7 +4792,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-336570
+  m_Name: pb_Mesh-2639700
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4956,7 +4956,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1571846
+  m_Name: pb_Mesh1492678
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9211,7 +9211,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-336556
+  m_Name: pb_Mesh-2639674
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9784,7 +9784,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 33308794}
   m_HandleRect: {fileID: 33308793}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -17849,11 +17849,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Click on the map to place turrets
-
-
-    Use this button to change the
-    click Action '
+  m_text: "Select a turret below, and click on the map to place it. \n\nProtect the
+    crystal!\n\nPS: you can block the path, but that's cheating. Honor code!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13272c3f5cfd6dd4e9bf80908f6c2e1e, type: 2}
   m_sharedMaterial: {fileID: 752994192929020027, guid: 13272c3f5cfd6dd4e9bf80908f6c2e1e, type: 2}
@@ -17880,11 +17877,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.4
+  m_fontSize: 16.25
   m_fontSizeBase: 17.4
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 14
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
@@ -17916,7 +17913,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.013221491, z: 0, w: -0.031433105}
+  m_margin: {x: 0, y: 0.013221491, z: 15.825649, w: -60.257393}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -31147,7 +31144,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1222617503}
   m_HandleRect: {fileID: 1222617502}
   m_Direction: 0
-  m_Value: -0.0000001907348
+  m_Value: 0.0000001907348
   m_Size: 0.7142856
   m_NumberOfSteps: 0
   m_OnValueChanged:

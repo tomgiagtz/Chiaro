@@ -134,3 +134,5 @@ MonoBehaviour:
   _sceneHistory:
   - name: MainGame
     path: Assets/Scenes/MainGame.unity
+  - name: MainMenu
+    path: Assets/Scenes/MainMenu.unity
