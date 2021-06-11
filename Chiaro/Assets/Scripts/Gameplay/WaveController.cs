@@ -97,7 +97,7 @@ public class WaveController : MonoSingleton<WaveController>
     public float timeBetweenWaves = 5f;
     IEnumerator WaitForNextWave() {
         isSpawning = false;
-        
+        yield return new WaitUntil(() => aliveEnemies.Count == 0);
         yield return new WaitForSeconds(timeBetweenWaves);
         //start next wave
         isSpawning = true;
