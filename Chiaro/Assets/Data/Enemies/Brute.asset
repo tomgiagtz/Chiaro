@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99968ef2afcb22646aa0b88ff609e3f1, type: 3}
   m_Name: Brute
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  speed: 5
+  maxHealth: 500
+  speed: 1
   isFlying: 0
   enemyType: 0
-  coinValue: 1
+  coinValue: 20
   damageValue: 1
   prefab: {fileID: 126572, guid: f600bcfa8814ff94489b520c8d7c13d9, type: 3}

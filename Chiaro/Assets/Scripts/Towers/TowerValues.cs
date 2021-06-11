@@ -18,7 +18,7 @@ public class TowerValues : ScriptableObject
     public Sprite sprite;
 
     public bool CanAfford() {
-        return cost > GameController.Instance.CoinCount();
+        return cost <= GameController.Instance.CoinCount();
     }
 
     public void Buy() {
@@ -27,6 +27,10 @@ public class TowerValues : ScriptableObject
 
     public void Sell() {
         GameController.Instance.AddCoins(sellPrice);
+    }
+
+    public bool IsSelected() {
+        return ShopController.Instance.selectedTower == this;
     }
 }
 

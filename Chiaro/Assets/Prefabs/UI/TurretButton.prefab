@@ -98,7 +98,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 2
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -137,7 +137,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerType: {fileID: 11400000, guid: 24758248c0618b6439f086d326b4b67f, type: 2}
   priceLabel: {fileID: 4973730467425751822}
+  affordableColor: {r: 0.8980392, g: 0.67897224, b: 0.26274517, a: 1}
+  unaffordableColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
   displayImage: {fileID: 2169892307479819138}
+  selectedSprite: {fileID: -923936438716990808, guid: 7e401b2a082106842abb10448e9c1916, type: 3}
+  unselectedSprite: {fileID: -446549290960396276, guid: 7e401b2a082106842abb10448e9c1916, type: 3}
 --- !u!1 &4212621530863863486
 GameObject:
   m_ObjectHideFlags: 0

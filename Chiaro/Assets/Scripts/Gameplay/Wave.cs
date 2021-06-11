@@ -7,7 +7,8 @@ using UnityEngine;
 public enum WaveTypes {
     Standard,
     Fast,
-    Flying
+    Flying,
+    Brute
 }
 
 public enum WaveErrors {
@@ -48,13 +49,16 @@ public class Wave : ScriptableObject
         switch (waveType)
         {
             case WaveTypes.Standard: 
-                return Color.blue;
+                return Color.red;
 
             case WaveTypes.Flying: 
                 return Color.yellow;
 
             case WaveTypes.Fast: 
-                return Color.red;
+                return Color.blue;
+
+            case WaveTypes.Brute: 
+                return Color.green;
             
             default:
                 return Color.blue;

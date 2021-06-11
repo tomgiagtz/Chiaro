@@ -6683,10 +6683,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1275476198}
     m_Modifications:
-    - target: {fileID: 2169892307479819138, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -3045606507109579775, guid: 22411f7d1a15332439a503a8819e6927, type: 3}
     - target: {fileID: 3952488000678325451, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6775,10 +6771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurretButton (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4973730468183544798, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
-      propertyPath: towerType
+    - target: {fileID: 6768263781991778930, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 11400000, guid: 24758248c0618b6439f086d326b4b67f, type: 2}
+      objectReference: {fileID: -446549290960396276, guid: 7e401b2a082106842abb10448e9c1916, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
 --- !u!1001 &443994677
@@ -9788,7 +9784,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 33308794}
   m_HandleRect: {fileID: 33308793}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -31151,7 +31147,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1222617503}
   m_HandleRect: {fileID: 1222617502}
   m_Direction: 0
-  m_Value: 0.0000001907348
+  m_Value: -0.0000001907348
   m_Size: 0.7142856
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -39458,6 +39454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1275476198}
     m_Modifications:
+    - target: {fileID: 2169892307479819138, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5654398348489882928, guid: d4301bf14a6dd694495777affa8e35cd, type: 3}
     - target: {fileID: 3952488000678325451, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -39546,18 +39546,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurretButton
       objectReference: {fileID: 0}
+    - target: {fileID: 4973730468183544798, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: towerType
+      value: 
+      objectReference: {fileID: 11400000, guid: 89c7d2cba62abe34aa9f297528616f89, type: 2}
     - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
-      propertyPath: m_Transition
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
       propertyPath: m_Interactable
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: -446549290960396276, guid: 7e401b2a082106842abb10448e9c1916, type: 3}
+    - target: {fileID: 6112181984796343183, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: -923936438716990808, guid: 7e401b2a082106842abb10448e9c1916, type: 3}
+    - target: {fileID: 6768263781991778930, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -446549290960396276, guid: 7e401b2a082106842abb10448e9c1916, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb8faa62d486f234c8d16980f1032307, type: 3}
 --- !u!1001 &2059727208

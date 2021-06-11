@@ -19,7 +19,7 @@ public class WaveUIElement : MonoBehaviour
     
     //should be called whenever gameobject is made
     public void InitWaveUI(Wave waveData){
-        Debug.Log("HEre" + waveData.waveName);
+        Debug.Log("HEre" + waveData.GetWaveUIColor());
         waveLabel.SetText(waveData.waveName);
         waveBacker.color = waveData.GetWaveUIColor();
     }

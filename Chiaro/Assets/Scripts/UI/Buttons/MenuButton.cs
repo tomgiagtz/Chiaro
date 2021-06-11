@@ -15,7 +15,6 @@ public class MenuButton : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        Debug.Log(hasKeyBoardInput);
         if (Input.GetKeyDown(pauseKey) && hasKeyBoardInput) {
             Pause();
         }

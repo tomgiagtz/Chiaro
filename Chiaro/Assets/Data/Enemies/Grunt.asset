@@ -16,6 +16,6 @@ MonoBehaviour:
   speed: 2
   isFlying: 0
   enemyType: 0
-  coinValue: 1
+  coinValue: 3
   damageValue: 1
   prefab: {fileID: 126572, guid: 6d9f9d761f007be4e9080ace59513ce8, type: 3}

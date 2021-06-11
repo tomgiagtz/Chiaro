@@ -378,7 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec5aef17e61b6c349a582482b3ee7168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyValues: {fileID: 11400000, guid: 2fc909a443b66024f8b2964e6edc02dc, type: 2}
+  enemyValues: {fileID: 11400000, guid: 3a75dab6860d20141b3bc4f026d67ffc, type: 2}
   currentHealth: 0
   willDestroy: 0
   animator: {fileID: 9597222}

@@ -12,14 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c660bcedff739744aab2c0d10bbdcbb7, type: 3}
   m_Name: References
   m_EditorClassIdentifier: 
-  _bookmarks:
-  - globalInstanceID: GlobalObjectId_V1-1-29e2c41fe2446c24e88f6b5a0579d695-102900000-0
-    title: MainGame
-    type: UnityEditor.SceneAsset, UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-    path: Assets/Scenes/MainGame.unity
-    target: {fileID: 102900000, guid: 29e2c41fe2446c24e88f6b5a0579d695, type: 3}
-    isProjectItem: 1
+  _bookmarks: []
   _favoriteWindows: []
   _quickAccessItems:
   - expanded: 0
@@ -141,5 +134,3 @@ MonoBehaviour:
   _sceneHistory:
   - name: MainGame
     path: Assets/Scenes/MainGame.unity
-  - name: MainMenu
-    path: Assets/Scenes/MainMenu.unity

@@ -47,7 +47,9 @@ public class ShopController : MonoSingleton<ShopController>
 
     public bool AttemptBuy(GameObject selection) {
         Node node = selection.GetComponent<Node>();
+        Debug.Log(selectedTower.CanAfford());
         if (!node.towerGO && selectedTower.CanAfford()) {
+            selectedTower.Buy();
             Instantiate(selectedTower.prefab, selection.transform.position + node.offset, selection.transform.rotation);
         }
         return false;

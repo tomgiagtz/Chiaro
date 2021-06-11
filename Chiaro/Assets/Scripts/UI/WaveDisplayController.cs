@@ -60,8 +60,7 @@ public class WaveDisplayController : MonoSingleton<WaveDisplayController>
             //dont attempt to update if there are no wave ui elements
             return;
         }
-        Debug.Log(waveProgress);
-        Debug.Log(targetScrollValue);
+        
         if (targetScrollValue < waveProgress) {
             //update scroll value when progress is increased
             Tween.Value(targetScrollValue, waveProgress, UpdateScrollValue, 1 / waveController.currWave.spawnRate, 0);
