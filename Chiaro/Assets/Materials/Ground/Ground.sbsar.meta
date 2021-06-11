@@ -17,7 +17,8 @@ ScriptedImporter:
     generateAllOutputs: 1
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://Ground\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
-      uid=\"2527831057\" type=\"8\" value=\"10,10\" />\n </sbspreset>\n"
+      uid=\"2527831057\" type=\"8\" value=\"10,10\" />\n  <presetinput identifier=\"height_position\"
+      uid=\"4163173105\" type=\"0\" value=\"0.27\" />\n </sbspreset>\n"
     shaderName: Universal Render Pipeline/Lit
     materialProperties:
       shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}

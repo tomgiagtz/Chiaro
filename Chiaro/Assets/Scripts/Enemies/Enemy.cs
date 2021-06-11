@@ -19,10 +19,13 @@ public class Enemy : MonoBehaviour
     public bool willDestroy = false;
     private float DEATH_TIME = 1f;
     public Animator animator;
+    public float invulnTime = 1f;
     
     // Start is called before the first frame update
+    float timeAtStart;
     void Start()
     {
+        timeAtStart = Time.timeSinceLevelLoad;
         animator.SetBool("Run Forward", true);
         currentHealth = enemyValues.maxHealth;
     }
@@ -34,6 +37,8 @@ public class Enemy : MonoBehaviour
     }
 
     public void OnDamage(float damageAmount) {
+        if (Time.timeSinceLevelLoad - timeAtStart < invulnTime)
+            return;
         currentHealth -= damageAmount;
 
         if (currentHealth <= 0) {

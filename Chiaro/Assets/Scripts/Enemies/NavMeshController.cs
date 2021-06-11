@@ -52,7 +52,7 @@ public class NavMeshController : MonoBehaviour
     }
     //delayed and repeated to allow for pathfinding in first couple frames
     void UpdateDistanceFromExit() {
-        if (agent != null) {
+        if (agent != null && agent.isOnNavMesh) {
             distanceFromExit = agent.remainingDistance;
         }
     }

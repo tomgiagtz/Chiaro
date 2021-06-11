@@ -9,7 +9,7 @@ TerrainLayer:
   m_Name: Stone
   m_DiffuseTexture: {fileID: -1083666499780969614, guid: 67a41288c28c9e94e8b7d93d87cabc99, type: 3}
   m_NormalMapTexture: {fileID: 8766549171324001077, guid: 67a41288c28c9e94e8b7d93d87cabc99, type: 3}
-  m_MaskMapTexture: {fileID: 0}
+  m_MaskMapTexture: {fileID: 2800000, guid: a4806c1f1b74abb4f9c9b3c7f5d5868d, type: 3}
   m_TileSize: {x: 40, y: 40}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
@@ -18,5 +18,5 @@ TerrainLayer:
   m_NormalScale: 1
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
-  m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
-  m_MaskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+  m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0.07292171}
+  m_MaskMapRemapMax: {x: 0.47496358, y: 1, z: 1, w: 0.44093335}
