@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99968ef2afcb22646aa0b88ff609e3f1, type: 3}
-  m_Name: SuperGrunt
+  m_Name: Brute
   m_EditorClassIdentifier: 
   maxHealth: 100
   speed: 5
@@ -18,4 +18,4 @@ MonoBehaviour:
   enemyType: 0
   coinValue: 1
   damageValue: 1
-  prefab: {fileID: 126572, guid: 6d9f9d761f007be4e9080ace59513ce8, type: 3}
+  prefab: {fileID: 126572, guid: f600bcfa8814ff94489b520c8d7c13d9, type: 3}

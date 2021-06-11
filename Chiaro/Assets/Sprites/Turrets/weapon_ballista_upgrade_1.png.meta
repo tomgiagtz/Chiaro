@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d4301bf14a6dd694495777affa8e35cd
+guid: 22411f7d1a15332439a503a8819e6927
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5654398348489882928
-    second: weapon_ballista_S_0
+      213: -3045606507109579775
+    second: weapon_ballista_upgrade_1_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,11 +46,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
-  alignment: 9
-  spritePivot: {x: 0.5, y: 0.40625}
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 226, y: 186, z: 229, w: 280}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -142,7 +142,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapon_ballista_S_0
+      name: weapon_ballista_upgrade_1_0
       rect:
         serializedVersion: 2
         x: 135
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03d7b44f655787e40800000000000000
-      internalID: 5654398348489882928
+      spriteID: 1048d12a405dbb5d0800000000000000
+      internalID: -3045606507109579775
       vertices: []
       indices: 
       edges: []

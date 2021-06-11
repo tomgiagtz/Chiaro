@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1604b820e1760b458c0d31d2d96f4d2, type: 3}
   m_Name: Ballista Lvl 2
   m_EditorClassIdentifier: 
-  cost: 10
+  cost: 40
   sellPrice: 4
   range: 5
   damage: 1.5
   rateOfFire: 2
   prefab: {fileID: 8554185669800260291, guid: 6160dbb3178b1c04689318d92ba35c05, type: 3}
   upgrade: {fileID: 8554185669800260291, guid: 6160dbb3178b1c04689318d92ba35c05, type: 3}
-  sprite: {fileID: 5654398348489882928, guid: d4301bf14a6dd694495777affa8e35cd, type: 3}
+  sprite: {fileID: -3045606507109579775, guid: 22411f7d1a15332439a503a8819e6927, type: 3}
