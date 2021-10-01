@@ -15,7 +15,7 @@ public class GameController : MonoSingleton<GameController> {
 		return this.coinCount;
 	}
 
-	
+	//commit for test
 
 	public int LifeCount() {
 		return this.lifeCount;
